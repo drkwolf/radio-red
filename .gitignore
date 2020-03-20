@@ -5,4 +5,5 @@ localmusic/
 Thumbs.db
 thumbs.db
 .env
+.env.*
 env.backup
