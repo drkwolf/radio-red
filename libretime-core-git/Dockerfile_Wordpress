@@ -1,0 +1,7 @@
+FROM  bushrangers/ubuntu-multicontainer-libretime:libretime-latest
+
+RUN apt update && apt install -yyq php-mysql
+RUN a2enmod substitute
+#RUN /etc/init.d/apache2 restart
+
+CMD ["/opt/libretime/entrypoint.sh"]

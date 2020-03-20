@@ -1,0 +1,8 @@
+.DS_Store
+libretime-core/config/airtime
+postgresql/
+localmusic/
+Thumbs.db
+thumbs.db
+.env
+env.backup
